@@ -1,10 +1,3 @@
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
-
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
@@ -21,7 +14,7 @@
 ## Settings Overview
 
 <div align="center">
-    <img src="vs-code.png" alt="Logo" width="80" height="80">
+    <img src="vs-code.png" alt="Logo">
 </div>
 
 ### Installation
@@ -29,7 +22,7 @@
 1. Download the file `Farhan.code-profile`
 2. Open the vs code and import the profile
    <div align="center">
-      <img src="how-to-import.jpeg" alt="Logo" width="80" height="80">
+      <img src="how-to-import.jpeg" alt="Logo">
   </div>
 
 
