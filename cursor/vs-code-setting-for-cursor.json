@@ -1,0 +1,136 @@
+{
+  "editor.tokenColorCustomizations": {
+    "[*Light*]": {
+      "textMateRules": [
+        {
+          "scope": "ref.matchtext",
+          "settings": {
+            "foreground": "#000"
+          }
+        }
+      ]
+    },
+    "[*Dark*]": {
+      "textMateRules": [
+        {
+          "scope": "ref.matchtext",
+          "settings": {
+            "foreground": "#fff"
+          }
+        }
+      ]
+    },
+    "textMateRules": [
+      {
+        "name": "One Dark italic",
+        "scope": [
+          "comment",
+          "entity.other.attribute-name",
+          "keyword",
+          "markup.underline.link",
+          "storage.modifier",
+          "storage.type",
+          "string.url",
+          "variable.language.super",
+          "variable.language.this"
+        ],
+        "settings": {
+          "fontStyle": "italic"
+        }
+      },
+      {
+        "name": "One Dark italic reset",
+        "scope": [
+          "keyword.operator",
+          "keyword.other.type",
+          "storage.modifier.import",
+          "storage.modifier.package",
+          "storage.type.built-in",
+          "storage.type.function.arrow",
+          "storage.type.generic",
+          "storage.type.java",
+          "storage.type.primitive"
+        ],
+        "settings": {
+          "fontStyle": ""
+        }
+      }
+    ]
+  },
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "workbench.tree.indent": 15,
+  "workbench.tree.renderIndentGuides": "none",
+  "workbench.activityBar.orientation": "vertical",
+  "editor.lineHeight": 2.2,
+  "editor.fontSize": 15,
+  "terminal.integrated.fontSize": 15,
+  "terminal.integrated.lineHeight": 1.2,
+  "editor.fontLigatures": true,
+  "editor.fontFamily": "MonoLisa Variable",
+  "terminal.integrated.fontFamily": "MonoLisa Variable",
+  "editor.formatOnSave": true,
+  "editor.inlineSuggest.suppressSuggestions": true,
+  "editor.wordBasedSuggestions": "allDocuments",
+  "security.workspace.trust.untrustedFiles": "open",
+  "files.autoSave": "onFocusChange",
+  "editor.cursorSmoothCaretAnimation": "on",
+  "terminal.integrated.cursorStyle": "line",
+  "editor.linkedEditing": true,
+  "files.trimTrailingWhitespace": true,
+  "editor.guides.bracketPairs": true,
+  "editor.formatOnPaste": true,
+  "editor.inlineSuggest.showToolbar": "onHover",
+  "window.restoreWindows": "none",
+  "workbench.settings.editor": "json",
+  "terminal.integrated.stickyScroll.enabled": true,
+  "editor.parameterHints.enabled": false,
+  "javascript.preferences.quoteStyle": "single",
+  "typescript.preferences.quoteStyle": "single",
+  "editor.snippetSuggestions": "none",
+  "editor.quickSuggestions": {
+    "strings": "on",
+    "comments": "on"
+  },
+  "breadcrumbs.enabled": false,
+  "[html]": {
+    "editor.matchBrackets": "always"
+  },
+  "symbols.hidesExplorerArrows": false,
+  "editor.codeActionsOnSave": {
+    "source.removeUnusedImports": "always"
+  },
+  "window.commandCenter": false,
+  "workbench.layoutControl.enabled": false,
+  "terminal.integrated.shellIntegration.decorationsEnabled": "never",
+  "git.enableSmartCommit": true,
+  "git.autofetch": true,
+  "git.allowNoVerifyCommit": true,
+  "git.confirmSync": false,
+  "git.confirmNoVerifyCommit": false,
+  "cSpell.userWords": [
+    "autofetch",
+    "Cascadia",
+    "chakra",
+    "esbenp",
+    "Fira",
+    "gitblame",
+    "Kampi",
+    "supermaven"
+  ],
+  "workbench.iconTheme": "symbols",
+  "workbench.editor.empty.hint": "hidden",
+
+  "workbench.productIconTheme": "fluent-icons",
+
+  "apc.font.family": "MonoLisa Variable",
+  "apc.monospace.font.family": "MonoLisa Variable",
+  "editor.stickyScroll.enabled": false,
+  "workbench.tree.enableStickyScroll": false,
+  "gitblame.inlineMessageEnabled": true,
+  "gitblame.inlineMessageFormat": "${author.name}, ${time.ago}",
+  "terminal.integrated.defaultProfile.windows": "Git Bash",
+  "workbench.colorTheme": "Cobalt2",
+  "liveServer.settings.donotShowInfoMsg": true,
+  "editor.minimap.enabled": true,
+  "explorer.confirmDelete": false
+}
